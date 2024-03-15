@@ -5,9 +5,9 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fnjxr"]
 size = Vector2(14, 13)
 
-[node name="Player" type="CharacterBody2D"]
+[node name="Unit" type="CharacterBody2D"]
 
-[node name="Tile0097" type="Sprite2D" parent="."]
+[node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_indch")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

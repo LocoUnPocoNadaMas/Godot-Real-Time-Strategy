@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://d11ktcs7y4hh0"]
-
-[ext_resource type="Texture2D" uid="uid://djomly26uho1x" path="res://Assets/Sprites/tile_0096.png" id="1_mgs5j"]
-
-[node name="Enemy" type="CharacterBody2D"]
-
-[node name="Tile0096" type="Sprite2D" parent="."]
-position = Vector2(133, 65)
-texture = ExtResource("1_mgs5j")
