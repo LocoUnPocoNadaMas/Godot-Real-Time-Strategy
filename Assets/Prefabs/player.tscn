@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://bgwtbfenpg0jn"]
+
+[ext_resource type="Texture2D" uid="uid://csoqsy2i63fje" path="res://Assets/Sprites/tile_0097.png" id="1_indch"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fnjxr"]
+size = Vector2(14, 13)
+
+[node name="Player" type="CharacterBody2D"]
+
+[node name="Tile0097" type="Sprite2D" parent="."]
+texture = ExtResource("1_indch")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 0.5)
+shape = SubResource("RectangleShape2D_fnjxr")
+
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
