@@ -1,11 +1,11 @@
 class_name Unit
 extends CharacterBody2D
 
-@export_group("Stats")
+@export_category("Stats")
 @export var _health: int = 100
 @export var _damage: int = 20
 
-@export_group("Attack")
+@export_category("Attack")
 @export var _move_speed: float = 500
 @export var _attack_range: float = 20
 @export var _attack_rate: float = 0.5
