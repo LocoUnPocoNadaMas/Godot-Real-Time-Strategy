@@ -154,9 +154,9 @@ outlines = Array[PackedVector2Array]([PackedVector2Array(25, -44, 137, -43, 137,
 source_geometry_group_name = &"navigation_polygon_source_group"
 
 [sub_resource type="NavigationPolygon" id="NavigationPolygon_xesny"]
-vertices = PackedVector2Array(167, 7, 154, 7, 124, -78, 197, -78)
+vertices = PackedVector2Array(168, 6, 154, 6, 125, -77, 197, -77)
 polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3)])
-outlines = Array[PackedVector2Array]([PackedVector2Array(174, 17, 147, 17, 110, -88, 210, -88)])
+outlines = Array[PackedVector2Array]([PackedVector2Array(175, 16, 147, 16, 111, -87, 210, -87)])
 source_geometry_group_name = &"navigation_polygon_source_group"
 
 [node name="Main" type="Node"]
