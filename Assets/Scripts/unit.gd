@@ -20,7 +20,7 @@ var _sprite: Sprite2D
 func _ready():
 	_agent = get_node("NavigationAgent2D")
 	_sprite = get_node("Sprite2D")
-	_move_to_location(Vector2(100,0))
+	#move_to_location(Vector2(100,0))
 
 
 func _physics_process(delta):
@@ -49,14 +49,14 @@ func _set_target(new_target: Unit) -> void:
 	_target = new_target
 
 
-func _move_to_location(location: Vector2) -> void:
+func move_to_location(location: Vector2) -> void:
 	_target = null
 	_agent.target_position = location
 
 
 func _target_check() -> void:
 	if(_target != null):
-		var dist = global_position.direction_to(_target.global_position)
+		var dist = global_position.distance_to(_target.global_position)
 		if(dist <= _attack_range):
 			_agent.target_position = global_position
 			_try_attack_target()
