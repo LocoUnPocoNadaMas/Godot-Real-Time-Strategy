@@ -42,7 +42,7 @@ func _select_unit(unit: Unit):
 
 
 func _unselect_unit():
-	if(selected_unit):
+	if(selected_unit && selected_unit._is_player):
 		selected_unit.toggle_visual_selection(false)
 	selected_unit = null
 
