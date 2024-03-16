@@ -6,6 +6,7 @@
 
 [node name="Player" instance=ExtResource("1_whms3")]
 script = ExtResource("2_sme3p")
+_is_player = true
 
 [node name="VisualSelection" type="Sprite2D" parent="." index="0"]
 visible = false
