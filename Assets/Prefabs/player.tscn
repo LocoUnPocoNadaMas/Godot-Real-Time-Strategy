@@ -6,6 +6,7 @@
 [node name="Player" instance=ExtResource("1_whms3")]
 
 [node name="VisualSelection" type="Sprite2D" parent="." index="0"]
+visible = false
 self_modulate = Color(0, 1, 0, 1)
 position = Vector2(0, 3)
 texture = ExtResource("2_dv7qw")
