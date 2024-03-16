@@ -1,6 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://d7d8bf8e8unp"]
+[gd_scene load_steps=8 format=3 uid="uid://d7d8bf8e8unp"]
 
 [ext_resource type="Texture2D" uid="uid://chq75olnktfql" path="res://Assets/Sprites/tilemap.png" id="1_fnsms"]
+[ext_resource type="Script" path="res://main.gd" id="1_kvmc7"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kwbv1"]
 texture = ExtResource("1_fnsms")
@@ -160,6 +161,7 @@ outlines = Array[PackedVector2Array]([PackedVector2Array(169, 27, 152, 27, 120, 
 source_geometry_group_name = &"navigation_polygon_source_group"
 
 [node name="Main" type="Node"]
+script = ExtResource("1_kvmc7")
 
 [node name="Level1" type="Node2D" parent="."]
 
